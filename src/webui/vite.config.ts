@@ -1,13 +1,13 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-    build:{
+    build: {
         target: 'esnext',
         minify: false,
         lib: {
-          entry: 'src/NapCat.ts',
-          formats: ['es'],
-          fileName: () => 'renderer.js',
-        }
-    }
+            entry: 'ui/NapCat.ts',
+            formats: ['es'],
+            fileName: () => 'renderer.js',
+        },
+    },
 });

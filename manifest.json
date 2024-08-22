@@ -1,0 +1,33 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "NapCatQQ",
+  "slug": "NapCat.Framework",
+  "description": "高性能的 OneBot 11 协议实现",
+  "version": "2.1.0",
+  "icon": "./logo.png",
+  "authors": [
+    {
+      "name": "MliKiowa",
+      "link": "https://github.com/MliKiowa"
+    },
+    {
+      "name": "Young",
+      "link": "https://github.com/Wesley-Young"
+    }
+  ],
+  "repository": {
+    "repo": "NapNeko/NapCatQQ",
+    "branch": "main"
+  },
+  "platform": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "injects": {
+    "renderer": "./renderer.js",
+    "main": "./liteloader.cjs",
+    "preload": "./preload.cjs"
+  }
+}

@@ -1,11 +1,11 @@
-# Logs
-
 # Develop
 node_modules/
 package-lock.json
+pnpm-lock.yaml
 out/
 dist/
-src/core.lib/common/
+/src/core.lib/common/
+/localdebug/
 
 # Editor
 .vscode/*
@@ -15,3 +15,4 @@ src/core.lib/common/
 # Build
 *.db
 checkVersion.sh
+bun.lockb
